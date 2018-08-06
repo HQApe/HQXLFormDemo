@@ -1,0 +1,42 @@
+PODS:
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - SVGKit (2.0.1):
+    - CocoaLumberjack (~> 3.x)
+  - Toast (4.0.0)
+  - XLForm (4.0.0)
+
+DEPENDENCIES:
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `2.x`)
+  - Toast
+  - XLForm
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - Toast
+    - XLForm
+
+EXTERNAL SOURCES:
+  SVGKit:
+    :branch: 2.x
+    :git: https://github.com/SVGKit/SVGKit.git
+
+CHECKOUT OPTIONS:
+  SVGKit:
+    :commit: 01dd92bf730bab6fbde3e11ab93629f2e18456be
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  SVGKit: 4055d9e809b5db8633755979cfb3b02dc5a8c20d
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  XLForm: 04110197c12187dd28a6c7295d3d8b95f4fdb4de
+
+PODFILE CHECKSUM: 47832a0d5ce97c3371e634f33a4326d69d57fb69
+
+COCOAPODS: 1.5.2

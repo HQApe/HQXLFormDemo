@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>@1x单行列表/图标/右/Info</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="单行列表/图标/右/Info" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button---Info" transform="translate(1.000000, 1.000000)" fill="#24C77E" fill-rule="nonzero">
+            <path d="M11,21 C16.5228475,21 21,16.5228475 21,11 C21,5.4771525 16.5228475,1 11,1 C5.4771525,1 1,5.4771525 1,11 C1,16.5228475 5.4771525,21 11,21 Z M11,22 C4.92486775,22 0,17.0751322 0,11 C0,4.92486775 4.92486775,0 11,0 C17.0751322,0 22,4.92486775 22,11 C22,17.0751322 17.0751322,22 11,22 Z M10.75,7.5 C10.0595,7.5 9.5,6.9405 9.5,6.25 C9.5,5.5595 10.0595,5 10.75,5 C11.4405,5 12,5.5595 12,6.25 C12,6.9405 11.4405,7.5 10.75,7.5 Z M9,17.5 L9,17 L10,17 L10,9.5 L9,9.5 L9,9 L10,9 L12,9 L12,9.5 L12,17 L13,17 L13,17.5 L9,17.5 Z" id="Info"></path>
+        </g>
+    </g>
+</svg>

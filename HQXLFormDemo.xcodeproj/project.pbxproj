@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8405CE8421183AA5004B81B0 /* UIImage+TFormExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE5721183AA5004B81B0 /* UIImage+TFormExtension.m */; };
+		8405CE8521183AA5004B81B0 /* UIColor+TFormExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE5821183AA5004B81B0 /* UIColor+TFormExtension.m */; };
+		8405CE8621183AA5004B81B0 /* UIView+TFormExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE5A21183AA5004B81B0 /* UIView+TFormExtension.m */; };
+		8405CE8721183AA5004B81B0 /* UILabel+TFormExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE5D21183AA5004B81B0 /* UILabel+TFormExtension.m */; };
+		8405CE8821183AA5004B81B0 /* UITableView+TFormExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE5F21183AA5004B81B0 /* UITableView+TFormExtension.m */; };
+		8405CE8921183AA5004B81B0 /* TFormCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE6121183AA5004B81B0 /* TFormCommon.m */; };
+		8405CE8A21183AA5004B81B0 /* TFormBasicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE6521183AA5004B81B0 /* TFormBasicCell.m */; };
+		8405CE8B21183AA5004B81B0 /* TFormTextFeildCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE6621183AA5004B81B0 /* TFormTextFeildCell.m */; };
+		8405CE8C21183AA5004B81B0 /* TFormTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE6821183AA5004B81B0 /* TFormTextViewCell.m */; };
+		8405CE8D21183AA5004B81B0 /* TFormCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE6921183AA5004B81B0 /* TFormCheckCell.m */; };
+		8405CE8E21183AA5004B81B0 /* TFormShowDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE6A21183AA5004B81B0 /* TFormShowDetailCell.m */; };
+		8405CE8F21183AA5004B81B0 /* TFormPushCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE6C21183AA5004B81B0 /* TFormPushCell.m */; };
+		8405CE9021183AA5004B81B0 /* TFormSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE6F21183AA5004B81B0 /* TFormSegmentCell.m */; };
+		8405CE9121183AA5004B81B0 /* TFormRatingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE7121183AA5004B81B0 /* TFormRatingCell.m */; };
+		8405CE9221183AA5004B81B0 /* TFormShowPushCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE7321183AA5004B81B0 /* TFormShowPushCell.m */; };
+		8405CE9321183AA5004B81B0 /* TFormSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE7521183AA5004B81B0 /* TFormSwitchCell.m */; };
+		8405CE9421183AA5004B81B0 /* TFormTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE7721183AA5004B81B0 /* TFormTextCell.m */; };
+		8405CE9521183AA5004B81B0 /* TFormSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE7A21183AA5004B81B0 /* TFormSliderCell.m */; };
+		8405CE9621183AA5004B81B0 /* TFormSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE7D21183AA5004B81B0 /* TFormSelectorCell.m */; };
+		8405CE9721183AA5004B81B0 /* TRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE7E21183AA5004B81B0 /* TRatingView.m */; };
+		8405CE9821183AA5004B81B0 /* TFormStepperCountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE8021183AA5004B81B0 /* TFormStepperCountCell.m */; };
+		8405CE9921183AA5004B81B0 /* TFormRowDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE8321183AA5004B81B0 /* TFormRowDescriptor.m */; };
+		8405CEA421183AC6004B81B0 /* tf_info.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CE9B21183AC6004B81B0 /* tf_info.svg */; };
+		8405CEA521183AC6004B81B0 /* tf_cancel.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CE9C21183AC6004B81B0 /* tf_cancel.svg */; };
+		8405CEA621183AC6004B81B0 /* tf_add.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CE9D21183AC6004B81B0 /* tf_add.svg */; };
+		8405CEA721183AC6004B81B0 /* tf_quieter.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CE9E21183AC6004B81B0 /* tf_quieter.svg */; };
+		8405CEA821183AC6004B81B0 /* tf_select.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CE9F21183AC6004B81B0 /* tf_select.svg */; };
+		8405CEA921183AC6004B81B0 /* tf_check.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CEA021183AC6004B81B0 /* tf_check.svg */; };
+		8405CEAA21183AC6004B81B0 /* tf_selected.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CEA121183AC6004B81B0 /* tf_selected.svg */; };
+		8405CEAB21183AC6004B81B0 /* tf_arrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CEA221183AC6004B81B0 /* tf_arrow.svg */; };
+		8405CEAC21183AC6004B81B0 /* tf_speker.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CEA321183AC6004B81B0 /* tf_speker.svg */; };
+		8469DCF32117EC7E000D1B18 /* HQXLSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469DCF22117EC7E000D1B18 /* HQXLSystemViewController.m */; };
+		848899F621056A10001588D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848899F521056A10001588D7 /* AppDelegate.m */; };
+		848899F921056A10001588D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848899F821056A10001588D7 /* ViewController.m */; };
+		848899FC21056A10001588D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848899FA21056A10001588D7 /* Main.storyboard */; };
+		848899FE21056A11001588D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848899FD21056A11001588D7 /* Assets.xcassets */; };
+		84889A0121056A11001588D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848899FF21056A11001588D7 /* LaunchScreen.storyboard */; };
+		84889A0421056A11001588D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84889A0321056A11001588D7 /* main.m */; };
+		84889A0E21056A11001588D7 /* HQXLFormDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84889A0D21056A11001588D7 /* HQXLFormDemoTests.m */; };
+		84889A1921056A11001588D7 /* HQXLFormDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84889A1821056A11001588D7 /* HQXLFormDemoUITests.m */; };
+		F62DC184B04E579B060E271D /* libPods-HQXLFormDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 341306CC8B77DB01007E911F /* libPods-HQXLFormDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84889A0A21056A11001588D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848899E921056A10001588D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848899F021056A10001588D7;
+			remoteInfo = HQXLFormDemo;
+		};
+		84889A1521056A11001588D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848899E921056A10001588D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848899F021056A10001588D7;
+			remoteInfo = HQXLFormDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		341306CC8B77DB01007E911F /* libPods-HQXLFormDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HQXLFormDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499AD343999BBB102DBA9EC7 /* Pods-HQXLFormDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQXLFormDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQXLFormDemo/Pods-HQXLFormDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		52A245B6A06FF02722141F0E /* Pods-HQXLFormDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQXLFormDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQXLFormDemo/Pods-HQXLFormDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8405CE5621183AA5004B81B0 /* UILabel+TFormExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TFormExtension.h"; sourceTree = "<group>"; };
+		8405CE5721183AA5004B81B0 /* UIImage+TFormExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TFormExtension.m"; sourceTree = "<group>"; };
+		8405CE5821183AA5004B81B0 /* UIColor+TFormExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TFormExtension.m"; sourceTree = "<group>"; };
+		8405CE5921183AA5004B81B0 /* UITableView+TFormExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TFormExtension.h"; sourceTree = "<group>"; };
+		8405CE5A21183AA5004B81B0 /* UIView+TFormExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFormExtension.m"; sourceTree = "<group>"; };
+		8405CE5B21183AA5004B81B0 /* UIImage+TFormExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TFormExtension.h"; sourceTree = "<group>"; };
+		8405CE5C21183AA5004B81B0 /* UIColor+TFormExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TFormExtension.h"; sourceTree = "<group>"; };
+		8405CE5D21183AA5004B81B0 /* UILabel+TFormExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TFormExtension.m"; sourceTree = "<group>"; };
+		8405CE5E21183AA5004B81B0 /* UIView+TFormExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFormExtension.h"; sourceTree = "<group>"; };
+		8405CE5F21183AA5004B81B0 /* UITableView+TFormExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TFormExtension.m"; sourceTree = "<group>"; };
+		8405CE6021183AA5004B81B0 /* TFormCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormCommon.h; sourceTree = "<group>"; };
+		8405CE6121183AA5004B81B0 /* TFormCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormCommon.m; sourceTree = "<group>"; };
+		8405CE6321183AA5004B81B0 /* TFormSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormSwitchCell.h; sourceTree = "<group>"; };
+		8405CE6421183AA5004B81B0 /* TFormShowPushCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormShowPushCell.h; sourceTree = "<group>"; };
+		8405CE6521183AA5004B81B0 /* TFormBasicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormBasicCell.m; sourceTree = "<group>"; };
+		8405CE6621183AA5004B81B0 /* TFormTextFeildCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormTextFeildCell.m; sourceTree = "<group>"; };
+		8405CE6721183AA5004B81B0 /* TFormSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormSliderCell.h; sourceTree = "<group>"; };
+		8405CE6821183AA5004B81B0 /* TFormTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormTextViewCell.m; sourceTree = "<group>"; };
+		8405CE6921183AA5004B81B0 /* TFormCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormCheckCell.m; sourceTree = "<group>"; };
+		8405CE6A21183AA5004B81B0 /* TFormShowDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormShowDetailCell.m; sourceTree = "<group>"; };
+		8405CE6B21183AA5004B81B0 /* TFormTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormTextCell.h; sourceTree = "<group>"; };
+		8405CE6C21183AA5004B81B0 /* TFormPushCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormPushCell.m; sourceTree = "<group>"; };
+		8405CE6D21183AA5004B81B0 /* TRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRatingView.h; sourceTree = "<group>"; };
+		8405CE6E21183AA5004B81B0 /* TFormSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormSelectorCell.h; sourceTree = "<group>"; };
+		8405CE6F21183AA5004B81B0 /* TFormSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormSegmentCell.m; sourceTree = "<group>"; };
+		8405CE7021183AA5004B81B0 /* TFormStepperCountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormStepperCountCell.h; sourceTree = "<group>"; };
+		8405CE7121183AA5004B81B0 /* TFormRatingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormRatingCell.m; sourceTree = "<group>"; };
+		8405CE7221183AA5004B81B0 /* TFormTextFeildCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormTextFeildCell.h; sourceTree = "<group>"; };
+		8405CE7321183AA5004B81B0 /* TFormShowPushCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormShowPushCell.m; sourceTree = "<group>"; };
+		8405CE7421183AA5004B81B0 /* TFormBasicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormBasicCell.h; sourceTree = "<group>"; };
+		8405CE7521183AA5004B81B0 /* TFormSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormSwitchCell.m; sourceTree = "<group>"; };
+		8405CE7621183AA5004B81B0 /* TFormPushCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormPushCell.h; sourceTree = "<group>"; };
+		8405CE7721183AA5004B81B0 /* TFormTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormTextCell.m; sourceTree = "<group>"; };
+		8405CE7821183AA5004B81B0 /* TFormShowDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormShowDetailCell.h; sourceTree = "<group>"; };
+		8405CE7921183AA5004B81B0 /* TFormCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormCheckCell.h; sourceTree = "<group>"; };
+		8405CE7A21183AA5004B81B0 /* TFormSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormSliderCell.m; sourceTree = "<group>"; };
+		8405CE7B21183AA5004B81B0 /* TFormTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormTextViewCell.h; sourceTree = "<group>"; };
+		8405CE7C21183AA5004B81B0 /* TFormSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormSegmentCell.h; sourceTree = "<group>"; };
+		8405CE7D21183AA5004B81B0 /* TFormSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormSelectorCell.m; sourceTree = "<group>"; };
+		8405CE7E21183AA5004B81B0 /* TRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRatingView.m; sourceTree = "<group>"; };
+		8405CE7F21183AA5004B81B0 /* TFormRatingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormRatingCell.h; sourceTree = "<group>"; };
+		8405CE8021183AA5004B81B0 /* TFormStepperCountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormStepperCountCell.m; sourceTree = "<group>"; };
+		8405CE8221183AA5004B81B0 /* TFormRowDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormRowDescriptor.h; sourceTree = "<group>"; };
+		8405CE8321183AA5004B81B0 /* TFormRowDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormRowDescriptor.m; sourceTree = "<group>"; };
+		8405CE9B21183AC6004B81B0 /* tf_info.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_info.svg; sourceTree = "<group>"; };
+		8405CE9C21183AC6004B81B0 /* tf_cancel.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_cancel.svg; sourceTree = "<group>"; };
+		8405CE9D21183AC6004B81B0 /* tf_add.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_add.svg; sourceTree = "<group>"; };
+		8405CE9E21183AC6004B81B0 /* tf_quieter.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_quieter.svg; sourceTree = "<group>"; };
+		8405CE9F21183AC6004B81B0 /* tf_select.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_select.svg; sourceTree = "<group>"; };
+		8405CEA021183AC6004B81B0 /* tf_check.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_check.svg; sourceTree = "<group>"; };
+		8405CEA121183AC6004B81B0 /* tf_selected.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_selected.svg; sourceTree = "<group>"; };
+		8405CEA221183AC6004B81B0 /* tf_arrow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_arrow.svg; sourceTree = "<group>"; };
+		8405CEA321183AC6004B81B0 /* tf_speker.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_speker.svg; sourceTree = "<group>"; };
+		8469DCF12117EC7E000D1B18 /* HQXLSystemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQXLSystemViewController.h; sourceTree = "<group>"; };
+		8469DCF22117EC7E000D1B18 /* HQXLSystemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQXLSystemViewController.m; sourceTree = "<group>"; };
+		848899F121056A10001588D7 /* HQXLFormDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQXLFormDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848899F421056A10001588D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		848899F521056A10001588D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		848899F721056A10001588D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		848899F821056A10001588D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		848899FB21056A10001588D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848899FD21056A11001588D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84889A0021056A11001588D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84889A0221056A11001588D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84889A0321056A11001588D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84889A0921056A11001588D7 /* HQXLFormDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQXLFormDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84889A0D21056A11001588D7 /* HQXLFormDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQXLFormDemoTests.m; sourceTree = "<group>"; };
+		84889A0F21056A11001588D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84889A1421056A11001588D7 /* HQXLFormDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQXLFormDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84889A1821056A11001588D7 /* HQXLFormDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQXLFormDemoUITests.m; sourceTree = "<group>"; };
+		84889A1A21056A11001588D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848899EE21056A10001588D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62DC184B04E579B060E271D /* libPods-HQXLFormDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84889A0621056A11001588D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84889A1121056A11001588D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EC8B953588D7C4680935BCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				499AD343999BBB102DBA9EC7 /* Pods-HQXLFormDemo.debug.xcconfig */,
+				52A245B6A06FF02722141F0E /* Pods-HQXLFormDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8405CE5421183AA4004B81B0 /* TForm */ = {
+			isa = PBXGroup;
+			children = (
+				8405CE6021183AA5004B81B0 /* TFormCommon.h */,
+				8405CE6121183AA5004B81B0 /* TFormCommon.m */,
+				8405CE5521183AA5004B81B0 /* Category */,
+				8405CE6221183AA5004B81B0 /* TFormCell */,
+				8405CE8121183AA5004B81B0 /* TFormRowDescriptor */,
+				8405CE9A21183AC6004B81B0 /* images */,
+			);
+			path = TForm;
+			sourceTree = "<group>";
+		};
+		8405CE5521183AA5004B81B0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8405CE5621183AA5004B81B0 /* UILabel+TFormExtension.h */,
+				8405CE5721183AA5004B81B0 /* UIImage+TFormExtension.m */,
+				8405CE5821183AA5004B81B0 /* UIColor+TFormExtension.m */,
+				8405CE5921183AA5004B81B0 /* UITableView+TFormExtension.h */,
+				8405CE5A21183AA5004B81B0 /* UIView+TFormExtension.m */,
+				8405CE5B21183AA5004B81B0 /* UIImage+TFormExtension.h */,
+				8405CE5C21183AA5004B81B0 /* UIColor+TFormExtension.h */,
+				8405CE5D21183AA5004B81B0 /* UILabel+TFormExtension.m */,
+				8405CE5E21183AA5004B81B0 /* UIView+TFormExtension.h */,
+				8405CE5F21183AA5004B81B0 /* UITableView+TFormExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8405CE6221183AA5004B81B0 /* TFormCell */ = {
+			isa = PBXGroup;
+			children = (
+				8405CE6321183AA5004B81B0 /* TFormSwitchCell.h */,
+				8405CE6421183AA5004B81B0 /* TFormShowPushCell.h */,
+				8405CE6521183AA5004B81B0 /* TFormBasicCell.m */,
+				8405CE6621183AA5004B81B0 /* TFormTextFeildCell.m */,
+				8405CE6721183AA5004B81B0 /* TFormSliderCell.h */,
+				8405CE6821183AA5004B81B0 /* TFormTextViewCell.m */,
+				8405CE6921183AA5004B81B0 /* TFormCheckCell.m */,
+				8405CE6A21183AA5004B81B0 /* TFormShowDetailCell.m */,
+				8405CE6B21183AA5004B81B0 /* TFormTextCell.h */,
+				8405CE6C21183AA5004B81B0 /* TFormPushCell.m */,
+				8405CE6D21183AA5004B81B0 /* TRatingView.h */,
+				8405CE6E21183AA5004B81B0 /* TFormSelectorCell.h */,
+				8405CE6F21183AA5004B81B0 /* TFormSegmentCell.m */,
+				8405CE7021183AA5004B81B0 /* TFormStepperCountCell.h */,
+				8405CE7121183AA5004B81B0 /* TFormRatingCell.m */,
+				8405CE7221183AA5004B81B0 /* TFormTextFeildCell.h */,
+				8405CE7321183AA5004B81B0 /* TFormShowPushCell.m */,
+				8405CE7421183AA5004B81B0 /* TFormBasicCell.h */,
+				8405CE7521183AA5004B81B0 /* TFormSwitchCell.m */,
+				8405CE7621183AA5004B81B0 /* TFormPushCell.h */,
+				8405CE7721183AA5004B81B0 /* TFormTextCell.m */,
+				8405CE7821183AA5004B81B0 /* TFormShowDetailCell.h */,
+				8405CE7921183AA5004B81B0 /* TFormCheckCell.h */,
+				8405CE7A21183AA5004B81B0 /* TFormSliderCell.m */,
+				8405CE7B21183AA5004B81B0 /* TFormTextViewCell.h */,
+				8405CE7C21183AA5004B81B0 /* TFormSegmentCell.h */,
+				8405CE7D21183AA5004B81B0 /* TFormSelectorCell.m */,
+				8405CE7E21183AA5004B81B0 /* TRatingView.m */,
+				8405CE7F21183AA5004B81B0 /* TFormRatingCell.h */,
+				8405CE8021183AA5004B81B0 /* TFormStepperCountCell.m */,
+			);
+			path = TFormCell;
+			sourceTree = "<group>";
+		};
+		8405CE8121183AA5004B81B0 /* TFormRowDescriptor */ = {
+			isa = PBXGroup;
+			children = (
+				8405CE8221183AA5004B81B0 /* TFormRowDescriptor.h */,
+				8405CE8321183AA5004B81B0 /* TFormRowDescriptor.m */,
+			);
+			path = TFormRowDescriptor;
+			sourceTree = "<group>";
+		};
+		8405CE9A21183AC6004B81B0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8405CE9B21183AC6004B81B0 /* tf_info.svg */,
+				8405CE9C21183AC6004B81B0 /* tf_cancel.svg */,
+				8405CE9D21183AC6004B81B0 /* tf_add.svg */,
+				8405CE9E21183AC6004B81B0 /* tf_quieter.svg */,
+				8405CE9F21183AC6004B81B0 /* tf_select.svg */,
+				8405CEA021183AC6004B81B0 /* tf_check.svg */,
+				8405CEA121183AC6004B81B0 /* tf_selected.svg */,
+				8405CEA221183AC6004B81B0 /* tf_arrow.svg */,
+				8405CEA321183AC6004B81B0 /* tf_speker.svg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		848899E821056A10001588D7 = {
+			isa = PBXGroup;
+			children = (
+				848899F321056A10001588D7 /* HQXLFormDemo */,
+				84889A0C21056A11001588D7 /* HQXLFormDemoTests */,
+				84889A1721056A11001588D7 /* HQXLFormDemoUITests */,
+				848899F221056A10001588D7 /* Products */,
+				3EC8B953588D7C4680935BCC /* Pods */,
+				B1D7B2550D33EC55940F172C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		848899F221056A10001588D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848899F121056A10001588D7 /* HQXLFormDemo.app */,
+				84889A0921056A11001588D7 /* HQXLFormDemoTests.xctest */,
+				84889A1421056A11001588D7 /* HQXLFormDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848899F321056A10001588D7 /* HQXLFormDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8405CE5421183AA4004B81B0 /* TForm */,
+				848899F421056A10001588D7 /* AppDelegate.h */,
+				848899F521056A10001588D7 /* AppDelegate.m */,
+				848899F721056A10001588D7 /* ViewController.h */,
+				848899F821056A10001588D7 /* ViewController.m */,
+				8469DCF12117EC7E000D1B18 /* HQXLSystemViewController.h */,
+				8469DCF22117EC7E000D1B18 /* HQXLSystemViewController.m */,
+				848899FA21056A10001588D7 /* Main.storyboard */,
+				848899FD21056A11001588D7 /* Assets.xcassets */,
+				848899FF21056A11001588D7 /* LaunchScreen.storyboard */,
+				84889A0221056A11001588D7 /* Info.plist */,
+				84889A0321056A11001588D7 /* main.m */,
+			);
+			path = HQXLFormDemo;
+			sourceTree = "<group>";
+		};
+		84889A0C21056A11001588D7 /* HQXLFormDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				84889A0D21056A11001588D7 /* HQXLFormDemoTests.m */,
+				84889A0F21056A11001588D7 /* Info.plist */,
+			);
+			path = HQXLFormDemoTests;
+			sourceTree = "<group>";
+		};
+		84889A1721056A11001588D7 /* HQXLFormDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84889A1821056A11001588D7 /* HQXLFormDemoUITests.m */,
+				84889A1A21056A11001588D7 /* Info.plist */,
+			);
+			path = HQXLFormDemoUITests;
+			sourceTree = "<group>";
+		};
+		B1D7B2550D33EC55940F172C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				341306CC8B77DB01007E911F /* libPods-HQXLFormDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848899F021056A10001588D7 /* HQXLFormDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84889A1D21056A11001588D7 /* Build configuration list for PBXNativeTarget "HQXLFormDemo" */;
+			buildPhases = (
+				C05BE84253E88D2B2C300486 /* [CP] Check Pods Manifest.lock */,
+				848899ED21056A10001588D7 /* Sources */,
+				848899EE21056A10001588D7 /* Frameworks */,
+				848899EF21056A10001588D7 /* Resources */,
+				53EC980B93B60E0BCA484F14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQXLFormDemo;
+			productName = HQXLFormDemo;
+			productReference = 848899F121056A10001588D7 /* HQXLFormDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84889A0821056A11001588D7 /* HQXLFormDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84889A2021056A11001588D7 /* Build configuration list for PBXNativeTarget "HQXLFormDemoTests" */;
+			buildPhases = (
+				84889A0521056A11001588D7 /* Sources */,
+				84889A0621056A11001588D7 /* Frameworks */,
+				84889A0721056A11001588D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84889A0B21056A11001588D7 /* PBXTargetDependency */,
+			);
+			name = HQXLFormDemoTests;
+			productName = HQXLFormDemoTests;
+			productReference = 84889A0921056A11001588D7 /* HQXLFormDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84889A1321056A11001588D7 /* HQXLFormDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84889A2321056A11001588D7 /* Build configuration list for PBXNativeTarget "HQXLFormDemoUITests" */;
+			buildPhases = (
+				84889A1021056A11001588D7 /* Sources */,
+				84889A1121056A11001588D7 /* Frameworks */,
+				84889A1221056A11001588D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84889A1621056A11001588D7 /* PBXTargetDependency */,
+			);
+			name = HQXLFormDemoUITests;
+			productName = HQXLFormDemoUITests;
+			productReference = 84889A1421056A11001588D7 /* HQXLFormDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848899E921056A10001588D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					848899F021056A10001588D7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					84889A0821056A11001588D7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 848899F021056A10001588D7;
+					};
+					84889A1321056A11001588D7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 848899F021056A10001588D7;
+					};
+				};
+			};
+			buildConfigurationList = 848899EC21056A10001588D7 /* Build configuration list for PBXProject "HQXLFormDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848899E821056A10001588D7;
+			productRefGroup = 848899F221056A10001588D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848899F021056A10001588D7 /* HQXLFormDemo */,
+				84889A0821056A11001588D7 /* HQXLFormDemoTests */,
+				84889A1321056A11001588D7 /* HQXLFormDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848899EF21056A10001588D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8405CEA521183AC6004B81B0 /* tf_cancel.svg in Resources */,
+				8405CEAA21183AC6004B81B0 /* tf_selected.svg in Resources */,
+				8405CEAC21183AC6004B81B0 /* tf_speker.svg in Resources */,
+				84889A0121056A11001588D7 /* LaunchScreen.storyboard in Resources */,
+				8405CEAB21183AC6004B81B0 /* tf_arrow.svg in Resources */,
+				848899FE21056A11001588D7 /* Assets.xcassets in Resources */,
+				8405CEA421183AC6004B81B0 /* tf_info.svg in Resources */,
+				8405CEA921183AC6004B81B0 /* tf_check.svg in Resources */,
+				8405CEA821183AC6004B81B0 /* tf_select.svg in Resources */,
+				8405CEA621183AC6004B81B0 /* tf_add.svg in Resources */,
+				848899FC21056A10001588D7 /* Main.storyboard in Resources */,
+				8405CEA721183AC6004B81B0 /* tf_quieter.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84889A0721056A11001588D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84889A1221056A11001588D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53EC980B93B60E0BCA484F14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HQXLFormDemo/Pods-HQXLFormDemo-resources.sh",
+				"${PODS_ROOT}/XLForm/XLForm/XLForm.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XLForm.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQXLFormDemo/Pods-HQXLFormDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05BE84253E88D2B2C300486 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQXLFormDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848899ED21056A10001588D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8405CE8C21183AA5004B81B0 /* TFormTextViewCell.m in Sources */,
+				8405CE8821183AA5004B81B0 /* UITableView+TFormExtension.m in Sources */,
+				8405CE8F21183AA5004B81B0 /* TFormPushCell.m in Sources */,
+				848899F921056A10001588D7 /* ViewController.m in Sources */,
+				8405CE9721183AA5004B81B0 /* TRatingView.m in Sources */,
+				8405CE8721183AA5004B81B0 /* UILabel+TFormExtension.m in Sources */,
+				8405CE9221183AA5004B81B0 /* TFormShowPushCell.m in Sources */,
+				8469DCF32117EC7E000D1B18 /* HQXLSystemViewController.m in Sources */,
+				8405CE8521183AA5004B81B0 /* UIColor+TFormExtension.m in Sources */,
+				8405CE9021183AA5004B81B0 /* TFormSegmentCell.m in Sources */,
+				8405CE8921183AA5004B81B0 /* TFormCommon.m in Sources */,
+				8405CE9321183AA5004B81B0 /* TFormSwitchCell.m in Sources */,
+				8405CE9921183AA5004B81B0 /* TFormRowDescriptor.m in Sources */,
+				84889A0421056A11001588D7 /* main.m in Sources */,
+				848899F621056A10001588D7 /* AppDelegate.m in Sources */,
+				8405CE9521183AA5004B81B0 /* TFormSliderCell.m in Sources */,
+				8405CE9821183AA5004B81B0 /* TFormStepperCountCell.m in Sources */,
+				8405CE8D21183AA5004B81B0 /* TFormCheckCell.m in Sources */,
+				8405CE8E21183AA5004B81B0 /* TFormShowDetailCell.m in Sources */,
+				8405CE9121183AA5004B81B0 /* TFormRatingCell.m in Sources */,
+				8405CE9621183AA5004B81B0 /* TFormSelectorCell.m in Sources */,
+				8405CE8B21183AA5004B81B0 /* TFormTextFeildCell.m in Sources */,
+				8405CE9421183AA5004B81B0 /* TFormTextCell.m in Sources */,
+				8405CE8421183AA5004B81B0 /* UIImage+TFormExtension.m in Sources */,
+				8405CE8621183AA5004B81B0 /* UIView+TFormExtension.m in Sources */,
+				8405CE8A21183AA5004B81B0 /* TFormBasicCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84889A0521056A11001588D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84889A0E21056A11001588D7 /* HQXLFormDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84889A1021056A11001588D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84889A1921056A11001588D7 /* HQXLFormDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84889A0B21056A11001588D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848899F021056A10001588D7 /* HQXLFormDemo */;
+			targetProxy = 84889A0A21056A11001588D7 /* PBXContainerItemProxy */;
+		};
+		84889A1621056A11001588D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848899F021056A10001588D7 /* HQXLFormDemo */;
+			targetProxy = 84889A1521056A11001588D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848899FA21056A10001588D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848899FB21056A10001588D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848899FF21056A11001588D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84889A0021056A11001588D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84889A1B21056A11001588D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84889A1C21056A11001588D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84889A1E21056A11001588D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499AD343999BBB102DBA9EC7 /* Pods-HQXLFormDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2L3993CXH;
+				INFOPLIST_FILE = HQXLFormDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.to8toEnterprise.Test.HQXLFormDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84889A1F21056A11001588D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A245B6A06FF02722141F0E /* Pods-HQXLFormDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2L3993CXH;
+				INFOPLIST_FILE = HQXLFormDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.to8toEnterprise.Test.HQXLFormDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84889A2121056A11001588D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HQXLFormDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.to8toEnterprise.Test.HQXLFormDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HQXLFormDemo.app/HQXLFormDemo";
+			};
+			name = Debug;
+		};
+		84889A2221056A11001588D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HQXLFormDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.to8toEnterprise.Test.HQXLFormDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HQXLFormDemo.app/HQXLFormDemo";
+			};
+			name = Release;
+		};
+		84889A2421056A11001588D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HQXLFormDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.to8toEnterprise.Test.HQXLFormDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HQXLFormDemo;
+			};
+			name = Debug;
+		};
+		84889A2521056A11001588D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HQXLFormDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.to8toEnterprise.Test.HQXLFormDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HQXLFormDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848899EC21056A10001588D7 /* Build configuration list for PBXProject "HQXLFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84889A1B21056A11001588D7 /* Debug */,
+				84889A1C21056A11001588D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84889A1D21056A11001588D7 /* Build configuration list for PBXNativeTarget "HQXLFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84889A1E21056A11001588D7 /* Debug */,
+				84889A1F21056A11001588D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84889A2021056A11001588D7 /* Build configuration list for PBXNativeTarget "HQXLFormDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84889A2121056A11001588D7 /* Debug */,
+				84889A2221056A11001588D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84889A2321056A11001588D7 /* Build configuration list for PBXNativeTarget "HQXLFormDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84889A2421056A11001588D7 /* Debug */,
+				84889A2521056A11001588D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848899E921056A10001588D7 /* Project object */;
+}

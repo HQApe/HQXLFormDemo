@@ -7,7 +7,6 @@
 //
 
 #import "TFormSelectorCell.h"
-#import <SVGKit/SVGKit.h>
 
 static XLFormRowDescriptor *selectedRow;
 
@@ -77,7 +76,7 @@ static XLFormRowDescriptor *selectedRow;
     if ([self.rowDescriptor isKindOfClass:[TFormRowDescriptor class]]) {
         TFormRowDescriptorConfig *config = ((TFormRowDescriptor *)self.rowDescriptor).rowConfig;
         self.detailLB.text = config.detail;
-        NSString *imageName = [self.rowDescriptor.value boolValue] ? @"tf_selected" : @"tf_select";
+        NSString *imageName = [self.rowDescriptor.value boolValue] ? @"\U0000e606" : @"\U0000e605";
         self.selectedIV.image = [UIImage tf_svgimageWithName:imageName maskColor:self.themColor];;
     }
 }

@@ -24,6 +24,7 @@
     [self.contentView addSubview:self.iconView];
     [self.contentView addSubview:self.titleLB];
     [self.contentView addSubview:self.subTitleLB];
+    [self.contentView addSubview:self.bottomLine];
 }
 
 -(void)update
@@ -58,21 +59,21 @@
                 self.titleLB.tf_top = 9;
                 [self.titleLB tf_autoFitWidth:104];
                 self.titleLB.tf_left = self.iconView.tf_right + 15;
-                self.subTitleLB.tf_width = 104;
+                [self.subTitleLB tf_autoFitWidth:104];
             }else {
                 self.iconView.hidden = YES;
                 
                 self.titleLB.tf_top = 9;
                 [self.titleLB tf_autoFitWidth:139];
                 self.titleLB.tf_left = 15;
-                self.subTitleLB.tf_width = 139;
+                [self.subTitleLB tf_autoFitWidth:139];
             }
             self.subTitleLB.tf_left = self.titleLB.tf_left;
             self.subTitleLB.tf_top = self.titleLB.tf_bottom;
             
         }else {
             self.subTitleLB.hidden = YES;
-            
+            self.subTitleLB.tf_width = 0;
             if (config.icon.length) {
                 self.iconView.tf_left = 15;
                 self.iconView.tf_size = CGSizeMake(30, 30);
@@ -90,6 +91,9 @@
         }
     }
     
+    self.bottomLine.tf_width = self.contentView.tf_width - 30;
+    self.bottomLine.tf_left = 15;
+    self.bottomLine.tf_bottom = self.contentView.tf_bottom;
 }
 
 #pragma mark - Private
@@ -100,6 +104,7 @@
         self.titleLB.text = config.title;
         self.subTitleLB.text = config.subTitle;
     }
+    
 }
 
 #pragma mark - property
@@ -126,6 +131,14 @@
         _subTitleLB.textColor = [UIColor tf_colorWithHexString:@"999999"];
     }
     return _subTitleLB;
+}
+
+- (UIView *)bottomLine {
+    if (_bottomLine == nil) {
+        _bottomLine = [[UIView alloc] initWithFrame:CGRectMake(0, 0, KTFScreenW, 1)];
+        _bottomLine.backgroundColor = [UIColor tf_colorWithHexString:@"EEEEEE"];
+    }
+    return _bottomLine;
 }
 
 

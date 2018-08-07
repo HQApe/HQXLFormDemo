@@ -7,7 +7,6 @@
 //
 
 #import "TFormCheckCell.h"
-#import <SVGKit/SVGKit.h>
 @interface TFormCheckCell ()
 
 @property (strong, nonatomic) UILabel *detailLB;
@@ -65,7 +64,7 @@
         TFormRowDescriptorConfig *config = ((TFormRowDescriptor *)self.rowDescriptor).rowConfig;
         self.detailLB.text = config.detail;
         
-        self.checkIV.image = [self.rowDescriptor.value boolValue] ? [UIImage tf_svgimageWithName:@"tf_check" maskColor:self.themColor] : nil;
+        self.checkIV.image = [self.rowDescriptor.value boolValue] ? [UIImage tf_svgimageWithName:@"\U0000e602" maskColor:self.themColor] : nil;
     }
 }
 

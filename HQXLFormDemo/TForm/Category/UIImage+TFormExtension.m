@@ -7,17 +7,15 @@
 //
 
 #import "UIImage+TFormExtension.h"
-#import <SVGKit/SVGKit.h>
+//#import <SVGKit/SVGKit.h>
+#import "TFormBasicCell.h"
+#import <CoreText/CoreText.h>
+
 @implementation UIImage (TFormExtension)
 
 + (UIImage *)tf_svgimageWithName:(NSString *)imageName maskColor:(UIColor *)maskColor
 {
-    SVGKImage *svgImg = [SVGKImage imageNamed:imageName];
-    UIImage *image = svgImg.UIImage;
-    if (maskColor) {
-        image = [image tf_imageMaskWithColor:maskColor];
-    }
-    return image;
+    return [self iconWithName:imageName markSize:22 color:maskColor];
 }
 
 
@@ -43,6 +41,42 @@
     
     UIGraphicsEndImageContext();
     return newImage;
+}
+
++ (UIImage *)iconWithName:(NSString *)markCharacter markSize:(CGFloat)markSize color:(UIColor *)maskColor
+{
+    CGFloat scale = [UIScreen mainScreen].scale;
+    CGFloat realSize = markSize * scale;
+    UIFont *font = [UIFont fontWithName:@"iconfont" size:realSize];
+    CGSize imageSize = [self markCharacterSize:markCharacter font:font];
+    UIGraphicsBeginImageContext(imageSize);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    if ([markCharacter respondsToSelector:@selector(drawAtPoint:withAttributes:)]) {
+        [markCharacter drawAtPoint:CGPointZero withAttributes:@{NSFontAttributeName:font, NSForegroundColorAttributeName:maskColor}];
+    } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+        CGContextSetFillColorWithColor(context, maskColor.CGColor);
+        [markCharacter drawAtPoint:CGPointZero withFont:font];
+#pragma clang pop
+    }
+    UIImage *image = [UIImage imageWithCGImage:UIGraphicsGetImageFromCurrentImageContext().CGImage scale:scale orientation:UIImageOrientationUp];
+    UIGraphicsEndImageContext();
+
+    return image;
+}
+
++ (CGSize)markCharacterSize:(NSString *)markCharacter font:(UIFont *)markFont{
+        CGSize size = CGSizeZero;
+        if ([markCharacter respondsToSelector:@selector(sizeWithAttributes:)]) {
+            size = [markCharacter sizeWithAttributes:@{NSFontAttributeName:markFont}];
+        } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+            size = [markCharacter sizeWithFont:markFont];
+#pragma clang diagnostic pop
+        }
+    return size;
 }
 
 @end

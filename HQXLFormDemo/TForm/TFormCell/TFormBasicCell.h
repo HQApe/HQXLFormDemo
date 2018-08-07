@@ -11,9 +11,10 @@
 
 @interface TFormBasicCell : XLFormBaseCell
 
+@property (strong, nonatomic) UIColor *themColor;
 @property (strong, nonatomic) UIImageView *iconView;
 @property (strong, nonatomic) UILabel *titleLB;
 @property (strong, nonatomic) UILabel *subTitleLB;
-@property (strong, nonatomic) UIColor *themColor;
+@property (strong, nonatomic) UIView *bottomLine;
 
 @end

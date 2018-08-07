@@ -102,9 +102,9 @@
         self.detailLB.text = config.detail;
     }
     
-    UIImage *infoImage = [UIImage tf_svgimageWithName:@"tf_info" maskColor:self.themColor];
+    UIImage *infoImage = [UIImage tf_svgimageWithName:@"\U0000e603" maskColor:self.themColor];
     [self.showBtn setImage:infoImage forState:UIControlStateNormal];
-    self.arrowIV.image = [UIImage tf_svgimageWithName:@"tf_arrow" maskColor:self.themColor];;
+    self.arrowIV.image = [UIImage tf_svgimageWithName:@"\U0000e601" maskColor:self.themColor];;
 }
 
 
@@ -172,7 +172,7 @@
 
 - (UIImageView *)arrowIV {
     if (_arrowIV == nil) {
-        _arrowIV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 10, 16)];
+        _arrowIV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 14, 14)];
     }
     return _arrowIV;
 }

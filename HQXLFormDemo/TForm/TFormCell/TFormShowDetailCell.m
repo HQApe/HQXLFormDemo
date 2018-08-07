@@ -59,7 +59,7 @@
         TFormRowDescriptorConfig *config = ((TFormRowDescriptor *)self.rowDescriptor).rowConfig;
         self.detailLB.text = config.detail;
     }
-    UIImage *infoImage = [UIImage tf_svgimageWithName:@"tf_info" maskColor:self.themColor];
+    UIImage *infoImage = [UIImage tf_svgimageWithName:@"\U0000e603" maskColor:self.themColor];
     [self.showBtn setImage:infoImage forState:UIControlStateNormal];
 }
 

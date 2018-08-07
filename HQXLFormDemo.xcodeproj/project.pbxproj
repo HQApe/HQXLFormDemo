@@ -30,14 +30,13 @@
 		8405CE9821183AA5004B81B0 /* TFormStepperCountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE8021183AA5004B81B0 /* TFormStepperCountCell.m */; };
 		8405CE9921183AA5004B81B0 /* TFormRowDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8405CE8321183AA5004B81B0 /* TFormRowDescriptor.m */; };
 		8405CEA421183AC6004B81B0 /* tf_info.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CE9B21183AC6004B81B0 /* tf_info.svg */; };
-		8405CEA521183AC6004B81B0 /* tf_cancel.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CE9C21183AC6004B81B0 /* tf_cancel.svg */; };
-		8405CEA621183AC6004B81B0 /* tf_add.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CE9D21183AC6004B81B0 /* tf_add.svg */; };
 		8405CEA721183AC6004B81B0 /* tf_quieter.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CE9E21183AC6004B81B0 /* tf_quieter.svg */; };
 		8405CEA821183AC6004B81B0 /* tf_select.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CE9F21183AC6004B81B0 /* tf_select.svg */; };
 		8405CEA921183AC6004B81B0 /* tf_check.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CEA021183AC6004B81B0 /* tf_check.svg */; };
 		8405CEAA21183AC6004B81B0 /* tf_selected.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CEA121183AC6004B81B0 /* tf_selected.svg */; };
 		8405CEAB21183AC6004B81B0 /* tf_arrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CEA221183AC6004B81B0 /* tf_arrow.svg */; };
 		8405CEAC21183AC6004B81B0 /* tf_speker.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8405CEA321183AC6004B81B0 /* tf_speker.svg */; };
+		844BA6962119B20000D636C5 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844BA6952119B20000D636C5 /* iconfont.ttf */; };
 		8469DCF32117EC7E000D1B18 /* HQXLSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469DCF22117EC7E000D1B18 /* HQXLSystemViewController.m */; };
 		848899F621056A10001588D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848899F521056A10001588D7 /* AppDelegate.m */; };
 		848899F921056A10001588D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848899F821056A10001588D7 /* ViewController.m */; };
@@ -116,14 +115,13 @@
 		8405CE8221183AA5004B81B0 /* TFormRowDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFormRowDescriptor.h; sourceTree = "<group>"; };
 		8405CE8321183AA5004B81B0 /* TFormRowDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFormRowDescriptor.m; sourceTree = "<group>"; };
 		8405CE9B21183AC6004B81B0 /* tf_info.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_info.svg; sourceTree = "<group>"; };
-		8405CE9C21183AC6004B81B0 /* tf_cancel.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_cancel.svg; sourceTree = "<group>"; };
-		8405CE9D21183AC6004B81B0 /* tf_add.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_add.svg; sourceTree = "<group>"; };
 		8405CE9E21183AC6004B81B0 /* tf_quieter.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_quieter.svg; sourceTree = "<group>"; };
 		8405CE9F21183AC6004B81B0 /* tf_select.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_select.svg; sourceTree = "<group>"; };
 		8405CEA021183AC6004B81B0 /* tf_check.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_check.svg; sourceTree = "<group>"; };
 		8405CEA121183AC6004B81B0 /* tf_selected.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_selected.svg; sourceTree = "<group>"; };
 		8405CEA221183AC6004B81B0 /* tf_arrow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_arrow.svg; sourceTree = "<group>"; };
 		8405CEA321183AC6004B81B0 /* tf_speker.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tf_speker.svg; sourceTree = "<group>"; };
+		844BA6952119B20000D636C5 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		8469DCF12117EC7E000D1B18 /* HQXLSystemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQXLSystemViewController.h; sourceTree = "<group>"; };
 		8469DCF22117EC7E000D1B18 /* HQXLSystemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQXLSystemViewController.m; sourceTree = "<group>"; };
 		848899F121056A10001588D7 /* HQXLFormDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQXLFormDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,16 +193,16 @@
 		8405CE5521183AA5004B81B0 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				8405CE5621183AA5004B81B0 /* UILabel+TFormExtension.h */,
-				8405CE5721183AA5004B81B0 /* UIImage+TFormExtension.m */,
-				8405CE5821183AA5004B81B0 /* UIColor+TFormExtension.m */,
-				8405CE5921183AA5004B81B0 /* UITableView+TFormExtension.h */,
-				8405CE5A21183AA5004B81B0 /* UIView+TFormExtension.m */,
 				8405CE5B21183AA5004B81B0 /* UIImage+TFormExtension.h */,
-				8405CE5C21183AA5004B81B0 /* UIColor+TFormExtension.h */,
-				8405CE5D21183AA5004B81B0 /* UILabel+TFormExtension.m */,
-				8405CE5E21183AA5004B81B0 /* UIView+TFormExtension.h */,
+				8405CE5721183AA5004B81B0 /* UIImage+TFormExtension.m */,
+				8405CE5921183AA5004B81B0 /* UITableView+TFormExtension.h */,
 				8405CE5F21183AA5004B81B0 /* UITableView+TFormExtension.m */,
+				8405CE5E21183AA5004B81B0 /* UIView+TFormExtension.h */,
+				8405CE5A21183AA5004B81B0 /* UIView+TFormExtension.m */,
+				8405CE5C21183AA5004B81B0 /* UIColor+TFormExtension.h */,
+				8405CE5821183AA5004B81B0 /* UIColor+TFormExtension.m */,
+				8405CE5621183AA5004B81B0 /* UILabel+TFormExtension.h */,
+				8405CE5D21183AA5004B81B0 /* UILabel+TFormExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -258,9 +256,8 @@
 		8405CE9A21183AC6004B81B0 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				844BA6952119B20000D636C5 /* iconfont.ttf */,
 				8405CE9B21183AC6004B81B0 /* tf_info.svg */,
-				8405CE9C21183AC6004B81B0 /* tf_cancel.svg */,
-				8405CE9D21183AC6004B81B0 /* tf_add.svg */,
 				8405CE9E21183AC6004B81B0 /* tf_quieter.svg */,
 				8405CE9F21183AC6004B81B0 /* tf_select.svg */,
 				8405CEA021183AC6004B81B0 /* tf_check.svg */,
@@ -443,7 +440,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8405CEA521183AC6004B81B0 /* tf_cancel.svg in Resources */,
 				8405CEAA21183AC6004B81B0 /* tf_selected.svg in Resources */,
 				8405CEAC21183AC6004B81B0 /* tf_speker.svg in Resources */,
 				84889A0121056A11001588D7 /* LaunchScreen.storyboard in Resources */,
@@ -451,8 +447,8 @@
 				848899FE21056A11001588D7 /* Assets.xcassets in Resources */,
 				8405CEA421183AC6004B81B0 /* tf_info.svg in Resources */,
 				8405CEA921183AC6004B81B0 /* tf_check.svg in Resources */,
+				844BA6962119B20000D636C5 /* iconfont.ttf in Resources */,
 				8405CEA821183AC6004B81B0 /* tf_select.svg in Resources */,
-				8405CEA621183AC6004B81B0 /* tf_add.svg in Resources */,
 				848899FC21056A10001588D7 /* Main.storyboard in Resources */,
 				8405CEA721183AC6004B81B0 /* tf_quieter.svg in Resources */,
 			);

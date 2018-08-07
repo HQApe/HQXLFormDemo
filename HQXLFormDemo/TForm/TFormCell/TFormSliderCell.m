@@ -75,8 +75,8 @@
     }
     [self valueChanged:nil];
     
-    self.leftIV.image = [UIImage tf_svgimageWithName:@"tf_quieter" maskColor:self.themColor];
-    self.rightIV.image = [UIImage tf_svgimageWithName:@"tf_speker" maskColor:self.themColor];
+    self.leftIV.image = [UIImage tf_svgimageWithName:@"\U0000e604" maskColor:self.themColor];
+    self.rightIV.image = [UIImage tf_svgimageWithName:@"\U0000e607" maskColor:self.themColor];
 }
 
 +(CGFloat)formDescriptorCellHeightForRowDescriptor:(XLFormRowDescriptor *)rowDescriptor {
@@ -104,7 +104,7 @@
 
 - (UIImageView *)leftIV {
     if (_leftIV == nil) {
-        _leftIV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 11, 16)];
+        _leftIV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 16, 16)];
     }
     return _leftIV;
 }

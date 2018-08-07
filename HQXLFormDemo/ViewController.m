@@ -43,12 +43,18 @@
     section = [XLFormSectionDescriptor formSectionWithTitle:@"DispalyOnly"];
     [form addFormSection:section];
     
-    TFormRowDescriptorConfig *config = [TFormRowDescriptorConfig configWithIcon:nil title:@"标题文字" subTitle:nil detail:nil action:nil];
+    
+    TFormRowDescriptorConfig *config = [TFormRowDescriptorConfig configWithIcon:nil title:@"标题文字标题标题表" subTitle:nil detail:@"标题文字标题文字标题文字标题文字标题文字" action:nil];
     row = [TFormRowDescriptor formRowDescriptorWithTag:@"DispalyOnly" rowType:TFormRowDescriptorTypeDisplayOnly rowConfig:config];
+    [row.cellConfigAtConfigure setObject:[UIColor purpleColor] forKey:@"titleLB.textColor"];
     [section addFormRow:row];
     
-    config = [TFormRowDescriptorConfig configWithIcon:@"progress" title:@"标题文字" subTitle:@"子标题dfssfsd子标题啊" detail:@"标题文字标题文字标题文字" action:nil];
+    config = [TFormRowDescriptorConfig configWithIcon:@"progress" title:@"标题文字标题" subTitle:@"子标题dfssfsd子标题啊" detail:@"标题文字标题文字标题文字" action:nil];
     row = [TFormRowDescriptor formRowDescriptorWithTag:@"DispalyOnly" rowType:TFormRowDescriptorTypeDisplayOnly rowConfig:config];
+    
+    [row.cellConfigAtConfigure setObject:[UIColor purpleColor] forKey:@"themColor"];
+    [row.cellConfigAtConfigure setObject:[UIColor purpleColor] forKey:@"titleLB.textColor"];
+    [row.cellConfigAtConfigure setObject:[UIColor purpleColor] forKey:@"subTitleLB.textColor"];
     [section addFormRow:row];
     
     //ShowPush
@@ -66,7 +72,7 @@
     };
     [section addFormRow:row];
     
-    config = [TFormRowDescriptorConfig configWithIcon:@"progress" title:@"标题文字" subTitle:@"子标题" detail:@"详情" action:^(NSIndexPath *indexPath) {
+    config = [TFormRowDescriptorConfig configWithIcon:@"progress" title:@"标题文字标题" subTitle:@"子标题" detail:@"详情标" action:^(NSIndexPath *indexPath) {
         [self showToast:[NSString stringWithFormat:@"点击了Section==%ld， row==%ld", indexPath.section, indexPath.row]];
     }];
     row = [TFormRowDescriptor formRowDescriptorWithTag:@"ShowPush" rowType:TFormRowDescriptorTypeShowPush rowConfig:config];
@@ -273,6 +279,8 @@
        [self showToast:@"提交成功"];
     }
 }
+
+
 
 - (void)showToast:(NSString *)string
 {

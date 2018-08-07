@@ -56,14 +56,16 @@
                 self.iconView.tf_centerY = centerY;
                 
                 self.titleLB.tf_top = 9;
-                [self.titleLB tf_autoFitWidth:KTFScreenW - 190];
+                [self.titleLB tf_autoFitWidth:104];
                 self.titleLB.tf_left = self.iconView.tf_right + 15;
+                self.subTitleLB.tf_width = 104;
             }else {
                 self.iconView.hidden = YES;
                 
                 self.titleLB.tf_top = 9;
-                [self.titleLB tf_autoFitWidth:KTFScreenW - 130];
+                [self.titleLB tf_autoFitWidth:139];
                 self.titleLB.tf_left = 15;
+                self.subTitleLB.tf_width = 139;
             }
             self.subTitleLB.tf_left = self.titleLB.tf_left;
             self.subTitleLB.tf_top = self.titleLB.tf_bottom;
@@ -77,11 +79,11 @@
                 self.iconView.tf_centerY = centerY;
                 
                 self.titleLB.tf_left = self.iconView.tf_right + 15;
-                [self.titleLB tf_autoFitWidth:KTFScreenW - 190];
+                [self.titleLB tf_autoFitWidth:104];
                 self.titleLB.tf_centerY = centerY;
             }else {
                 self.iconView.hidden = YES;
-                [self.titleLB tf_autoFitWidth:KTFScreenW - 130];
+                [self.titleLB tf_autoFitWidth:139];
                 self.titleLB.tf_left = 15;
                 self.titleLB.tf_centerY = centerY;
             }

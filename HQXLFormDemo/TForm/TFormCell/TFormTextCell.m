@@ -26,7 +26,7 @@
 {
     [super layoutSubviews];
     
-    self.detailLB.tf_width = self.contentView.tf_width - self.titleLB.tf_right - 25;
+    self.detailLB.tf_width = self.contentView.tf_width - (self.titleLB.tf_right > self.subTitleLB.tf_right ? self.titleLB.tf_right:self.subTitleLB.tf_right) - 25;
     self.detailLB.tf_right = self.contentView.tf_width - 15;
     self.detailLB.tf_centerY = self.contentView.tf_centerY;
 }

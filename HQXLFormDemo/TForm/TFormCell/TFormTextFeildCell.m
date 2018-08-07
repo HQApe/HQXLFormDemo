@@ -31,7 +31,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    self.textField.tf_left = self.titleLB.text.length ? self.titleLB.tf_right + 10 : 15;
+    self.textField.tf_left = self.titleLB.text.length ?  (self.titleLB.tf_right > self.subTitleLB.tf_right ? self.titleLB.tf_right:self.subTitleLB.tf_right) + 10 : 15;
     self.textField.tf_width = self.contentView.tf_width - self.textField.tf_left - 15;
     self.textField.tf_height = self.contentView.tf_height - 20;
     self.textField.tf_centerY = self.contentView.tf_centerY + 1;

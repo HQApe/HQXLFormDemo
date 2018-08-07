@@ -30,7 +30,7 @@
     self.stepControl.tf_centerY = self.contentView.tf_centerY;
     
     self.detailLB.tf_centerY = self.contentView.tf_centerY;
-    self.detailLB.tf_width = self.contentView.tf_width - self.titleLB.tf_right - self.stepControl.tf_width - 36;
+    self.detailLB.tf_width = self.contentView.tf_width - (self.titleLB.tf_right > self.subTitleLB.tf_right ? self.titleLB.tf_right:self.subTitleLB.tf_right) - self.stepControl.tf_width - 36;
     self.detailLB.tf_right = self.stepControl.tf_left - 11;
 }
 

@@ -30,7 +30,7 @@
     self.checkIV.tf_centerY = self.contentView.tf_centerY;
     
     self.detailLB.tf_centerY = self.contentView.tf_centerY;
-    self.detailLB.tf_width = self.contentView.tf_width - self.titleLB.tf_right - 49;
+    self.detailLB.tf_width = self.contentView.tf_width - (self.titleLB.tf_right > self.subTitleLB.tf_right ? self.titleLB.tf_right:self.subTitleLB.tf_right) - 49;
     self.detailLB.tf_right = self.checkIV.tf_left - 11;
 }
 
